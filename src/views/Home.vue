@@ -36,6 +36,7 @@
         this.$store.commit('SET_VERSION', 'version:laravel5.8')
         this.SET_SITE_TITLE('蔡关荣博客')
       },
+
       loginHandle() {
         const account = 'caiguanrong'
         login({account}).then(res => {
