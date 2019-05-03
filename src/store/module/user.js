@@ -1,13 +1,13 @@
-const state  ={
-
+const state = {
+  avatar: 'vuex users'
 }
 
 const mutations = {
-
+  //
 }
 
 const actions = {
-
+  //
 }
 export default {
   state,
