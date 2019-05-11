@@ -1,12 +1,17 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/img/logo.png">
+    <Menu>
+      <MenuItem name="0">菜单</MenuItem>
+      <MenuItem name="1">菜单</MenuItem>
+      <MenuItem name="2">菜单</MenuItem>
+    </Menu>
     <div>{{site_name}}</div>
     <div>isLogin=>{{isLogin}}</div>
     <div>powered by :{{version}}</div>
     <div>未读消息数量 :{{msg_num}}</div>
-    <button @click="editSiteName">修改网站名称</button>
-    <button @click="loginHandle">登 录</button>
+    <Button type="primary" @click="editSiteName">修改网站名称</Button>
+    <Button type="primary" @click="loginHandle">登 录</Button>
     <div>
       <icon-svg icon="tupian" :size="50"></icon-svg>
     </div>
