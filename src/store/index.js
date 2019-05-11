@@ -17,5 +17,5 @@ export default new Vuex.Store({
   modules: {
     user
   },
-  plugins: [saveInLocal]// 持久化存储vuex
+  plugins: [ saveInLocal ]
 })
